@@ -1,0 +1,69 @@
+.App {
+	min-height: 100vh;
+	flex-direction: column;
+	font-size: calc(10px + 2vmin);
+	background: #dde1e7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.errorMessage {
+	color: rgb(215, 107, 107);
+	font-size: small;
+
+	padding: 5px 20px;
+}
+.formWindow {
+	width: 350px;
+	height: 450px;
+	border-radius: 15px;
+	box-shadow:
+		-5px -5px 9px rgba(255, 255, 255, 0.45),
+		5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.title {
+	text-align: center;
+	margin: 0px;
+	margin-top: 15px;
+}
+.emailBox {
+	height: 80px;
+}
+.passwordBox {
+	height: 110px;
+}
+.confirmPasswordBox {
+	height: 80px;
+}
+.subBtn {
+	width: 250px;
+	height: 50px;
+	border-radius: 22px;
+	background: linear-gradient(45deg, #cacaca, #f0f0f0);
+	box-shadow:
+		9px -9px 10px #cacaca,
+		-9px 9px 10px #f6f6f6;
+	border: none;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.subBtn:active {
+	background: linear-gradient(45deg, #f0f0f0, #cacaca);
+	box-shadow:
+		inset 9px -9px 10px #cacaca,
+		inset -9px 9px 10px #f6f6f6;
+}
+.inputBox {
+	background: #dde1e7;
+	box-shadow:
+		inset 10px -10px 30px #dde1e7,
+		inset -10px 10px 30px #ffffff;
+	border-radius: 15px;
+	border: none;
+	width: 200px;
+	height: 35px;
+	margin-top: 40px;
+	margin-left: 20px;
+	padding-left: 10px;
+}
